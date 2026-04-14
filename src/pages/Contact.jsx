@@ -1,4 +1,4 @@
-import ComponentThree from "../components/Componenttwo";
+import ComponentThree from '../components/ComponentThree'
 import React from 'react'
 
 const Contact = () => {

@@ -1,4 +1,4 @@
-import ComponentTwo from "../components/Componentone";
+import ComponentTwo from '../components/Componenttwo'
 import React from 'react'
 
 const About = () => {

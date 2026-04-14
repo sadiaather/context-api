@@ -4,7 +4,8 @@ export const GlobalContext = createContext("Initial Value");
 let data = {
   user: {},
   darkTheme: true,
-  course : {}
+  course : {},
+  name : "sadia"
 }
 export default function ContextProvider({ children }) {
   const [state, dispatch] = useReducer(reducer, data)

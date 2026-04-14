@@ -10,6 +10,9 @@ export const reducer = (state, action) => {
     case "CHANGE_THEME": {
       return { ...state, darkTheme: !state.darkTheme }
     }
+     case "CHANGE_NAME": {
+      return { ...state, name: action.payload }
+    }
     default: {
      return state
     }

@@ -1,4 +1,4 @@
-import ComponentOne from "../components/Coponentthree";
+import ComponentOne from '../components/Componentone'
 import React from 'react'
 
 const Home = () => {
