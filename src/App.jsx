@@ -3,17 +3,18 @@ import { BrowserRouter ,Route,Routes,Link} from 'react-router-dom'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import About from './pages/About'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
+import { Navbar } from 'react-bootstrap'
+import './App.css'
+
 
 
 const App = () => {
   return (
-    <div>
+    <div >
       <BrowserRouter>
-     <nav>
-        <Link to="/">Home</Link> |{" "}
-        <Link to="/about">About</Link> |{" "}
-        <Link to="/contact">Contact</Link>
-     </nav>
+     
 
      <Routes>
         <Route path="/" element={<Home />} />
