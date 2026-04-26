@@ -7,12 +7,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import { Navbar } from 'react-bootstrap'
 import './App.css'
+import { useContext } from 'react'
+import { GlobalContext } from './Context';
+
 
 
 
 const App = () => {
+    let { state, dispatch } = useContext(GlobalContext);
   return (
-    <div >
+    <div  className={`main ${state.darkTheme == true ? "light" : "dark" }`} >
       <BrowserRouter>
      
 

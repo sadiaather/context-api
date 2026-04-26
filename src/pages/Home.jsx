@@ -5,13 +5,16 @@ import { Card } from 'react-bootstrap'
 import Cards from '../components/Cards'
 
 
+
+
 const Home = () => {
+ 
   return (
     <div>
 <Navlink/>
-<h1>ye home ka page he</h1>
-<Cards/>
 <Hero/>
+<Cards/>
+
 
     </div>
 

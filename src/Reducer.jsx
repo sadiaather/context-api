@@ -13,6 +13,9 @@ export const reducer = (state, action) => {
      case "CHANGE_NAME": {
       return { ...state, name: action.payload }
     }
+     case "CHANGE_IMG": {
+      return { ...state, img: action.payload }
+    }
     default: {
      return state
     }

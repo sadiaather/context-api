@@ -5,7 +5,8 @@ let data = {
   user: {},
   darkTheme: true,
   course : {},
-  name : "sadia"
+  name : "sadia",
+  img :{}
 }
 export default function ContextProvider({ children }) {
   const [state, dispatch] = useReducer(reducer, data)

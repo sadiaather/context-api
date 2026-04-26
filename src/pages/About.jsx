@@ -1,5 +1,5 @@
 import { Nav } from 'react-bootstrap'
-import Card from '../components/Cards'
+import Hero from '../components/Hero'
 import React from 'react'
 import Navlink from '../components/Navlink'
 
@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div>
       <Navlink/>
-        <Card/>
+<Hero/>
         
     </div>
   )
